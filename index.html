@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>waveanim.js</title>
+        <link href="css/animate.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-family: 'Indie Flower', cursive;
+            }
+
+            .wave-text {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .wave-text h1 {
+                font-size: 38px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wave-text">
+            <h1>Hover over me.</h1>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/waveanim.js"></script>
+        <script>
+            $(".wave-text h1").waveanim();
+        </script>
+    </body>
+</html>
