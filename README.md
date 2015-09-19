@@ -11,7 +11,7 @@ Add [Animate.css](https://github.com/daneden/animate.css) to your CSS folder and
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css" rel="stylesheet" type="text/css">
 ```
 
-in `<head>`. Also, include jQuery somewhere.  You can use this tag:
+in `<head>`. Also, include [jQuery](https://jquery.com/) somewhere.  You can use this tag:
 
 ```html
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -35,7 +35,7 @@ $(".wave").waveanim({
 
 You can also change the number of seconds between triggering each letter animation:
 
-```
+```javascript
 $(".wave").waveanim({
   animation: "jello",
   waveOffset: .1
